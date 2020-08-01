@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name ="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/simplelightbox.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/7851f1c0df.js" crossorigin="anonymous"></script>
+	<title>Two Engines | Home</title>
+</head>
+<body id="home">
+	<nav class="navbar">
+		<div class="container">
+			<h1 class="logo">Two Engines</h1>
+			<ul class="nav">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#About">About</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Showcase -->
+	<section class="section-a">
+		<div class="container">
+			<div>
+				<h1>Grab a bike, Move your soul</h1>
+				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+				<a href="#" class="btn">Search More</a>
+			</div>
+			<img src="./img/showcase.jpeg">
+		</div>
+	</section>
+
+	<!--Overlay Text -->
+	<section class="section-b">
+		<div class="overlay">
+			<div class="section-b-inner">
+				<h3>Fast & Reliable</h3>
+				<h2>We are at your service</h2>
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+			</div>
+		</div>
+	</section>
+
+	<!--Gallery -->
+	<section class="section-c">
+		<div class="gallery">
+			<a href="img/bullet.png" class="big"><img src="img/bullet.png"></a>
+			<a href="img/gixxer.jpg" class="big"><img src="img/gixxer.jpg"></a>
+			<a href="img/pulsar220.png" class="big"><img src="img/pulsar220.png"></a>
+			<a href="img/fz.png" class="big"><img src="img/fz.png"></a>
+			<a href="img/apache.jpg" class="big"><img src="img/apache.jpg"></a>
+			<a href="img/diored.png" class="big"><img src="img/diored.png"></a>
+
+		</div>
+	</section>
+
+	<!--Footer-->
+	<footer class="section-footer">
+		<div class="container">
+			<div>
+				<h2>Two Engines</h2>
+				<a href="http://twitter.com">
+					<i class="fab fa-twitter fa-2x"></i>
+				</a>
+				<a href="http://facebook.com">
+					<i class="fab fa-facebook fa-2x"></i>
+				</a>
+				<a href="http://youtube.com">
+					<i class="fab fa-youtube fa-2x"></i>
+				</a>
+			</div>
+			<div>
+				<h3>Company Info</h3>
+				<ul>
+					<li><a href="#">All Products</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Terms & Conditions</a></li>
+
+				</ul>
+			</div>
+			<div>
+				<h3>Brands</h3>
+				<ul>
+				<li><a href="#">Bajaj</a></li>
+				<li><a href="#">KTM</a></li>
+				<li><a href="#">Yamaha</a></li>
+				<li><a href="#">Suzuki</a></li>
+				<li><a href="#">Honda</a></li>
+				</ul>
+			</div>
+			<div>
+				<h3>Subscribe</h3>
+				<p>Two Engines, We provide you faster service. Thank You!!!</p>
+				<form name="email-form" method="POST" data-netlify="true">
+					<div class="email-form">
+						<span class="form-control-wrap">
+							<input 
+							type="email" 
+							name="email" 
+							id="email" 
+							size="40" 
+							class="form-control"
+							placeholder="Email">
+						</span>
+						<button type="submit" class="form-control submit">
+							<i class="fas fa-chevron-right"></i>
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</footer>
+
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/simple-lightbox.min.js"></script>
+	<script>
+		$(function() {
+			const $gallery = $('.gallery a').simpleLightbox();
+		})
+	</script>
+</body>
+</html>
